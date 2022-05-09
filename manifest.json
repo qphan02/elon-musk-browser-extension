@@ -1,7 +1,7 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
-    "version": "1.0",
+    "name": "PapaMusk",
+    "description": "Change nearly all photos and texts to Elon Musk",
+    "version": "1.0.0",
     "manifest_version": 3,
     "background": {
       "service_worker": "background.js"
@@ -10,11 +10,17 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "/images/get_started16.png",
-        "32": "/images/get_started32.png",
-        "48": "/images/get_started48.png",
-        "128": "/images/get_started128.png"
+        "16": "/images/elon.png",
+        "32": "/images/elon.png",
+        "48": "/images/elon.png",
+        "128": "/images/elon.png"
       }
     },
-    "options_page": "options.html"
+    "options_page": "options.html",
+    "content_scripts" : [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["elon.js"]
+        }
+    ]
 }
