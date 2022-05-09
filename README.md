@@ -1,4 +1,4 @@
-# browser-extension
+# elon-musk-browser-extension
 
   Download the repo onto your computer
   
