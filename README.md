@@ -6,4 +6,4 @@
   
  Then go a website like Youtube and enjoy photos of Elon Musk ;)
  
- ![alt text](http://url/to/img.png)
+ ![elon-musk-extension.png](https://github.com/qphan02/browser-extension/blob/master/images/elon-musk-extension.png)
